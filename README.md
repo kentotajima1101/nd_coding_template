@@ -1,5 +1,4 @@
 # nd_coding_template
-# nd_codeing_template
 ノックデザインのコーディングテンプレート
 
 ## ディレクトリ構造
