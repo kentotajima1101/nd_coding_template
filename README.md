@@ -4,18 +4,19 @@
 ## ディレクトリ構造
 ```html
 nd_coding_template/
+├── index.html
 └── asset/
-    └── css/ (エクスポートされたcssファイル)
+    ├── css/ (エクスポートされたcssファイル)
     │   ├── import.css
     │   └── import.css.map
-    └── images/
+    ├── images/
     │   ├── common/ （共通で使う画像を格納）
     │   └── page/ （各ページで使う画像を格納。ファイルはページURLと合わせる）
-    └── js/
+    ├── js/
     │   └── common.js
     └── style/
-        └── import.scss  （scssの読み込みファイル）
-        └── no_edit （編集不可のディレクトリ）
+        ├── import.scss  （scssの読み込みファイル）
+        ├── no_edit （編集不可のディレクトリ）
         │   ├── _class.scss  （共通クラスが記載されたファイル）
         │   └── _reset.scss （リセット用のファイル）
         └── style （基本的に編集していくディレクトリ）
