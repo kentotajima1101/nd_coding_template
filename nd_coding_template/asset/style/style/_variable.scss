@@ -1,0 +1,28 @@
+@charset "UTF-8";
+// --------------------------------------------------
+// 基本設定
+// --------------------------------------------------
+$base-font: "ヒラギノ角ゴシック ProN", "Hiragino Kaku Gothic ProN", "Hiragino Sans", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", "游ゴシック体", "Yu Gothic", YuGothic, sans-serif;
+$base-font-color: #333;
+$base-link-color: #0000ee;
+$base-font-size: 16px;
+$base-font-size-tb: 14px;
+$base-font-size-sp: 14px;
+$base-line-height: 2;
+$base-letter-spacing: 0.06em;
+
+// プレークポイント
+$screen-tb: 768px;
+$screen-sp: 480px;
+
+// --------------------------------------------------
+// 色設定
+// --------------------------------------------------
+$primary: #000;
+$secondary: #000;
+$warn-color: #FF0000;
+  
+// --------------------------------------------------
+// フォント
+// --------------------------------------------------
+$f-mdi: "Material Icons";

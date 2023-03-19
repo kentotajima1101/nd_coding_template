@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+// --------------------------------------------------
+// 基本設定
+// --------------------------------------------------
+
+// プレークポイント
+$screen-tb: 768px;
+$screen-sp: 480px;
+
+
+body {
+    color: $base-font-color;
+    font-size: $base-font-size;
+    font-family: $base-font;
+  }
+  
+  p,
+  a,
+  dt,
+  dd,
+  li,
+  th,
+  td {
+    line-height: $base-line-height;
+  }
+  
+  a {
+    color: $base-link-color;
+    &:hover {
+      color: $base-link-color;
+    }
+  }
+  
+
+
+// --------------------------------------------------
+// index.html
+// --------------------------------------------------
+.l-container {
+}
+
+@media only screen and (max-width: $screen-tb) {
+}
+
+@media only screen and (max-width: $screen-sp) {
+}
